@@ -1,0 +1,26 @@
+@import 'blocks/info';
+@import 'blocks/main';
+
+* {
+    font-family: 'Montserrat';
+    margin: 0px;
+}
+
+.text-blue {
+    color: #6D9BF5;
+}
+
+.secondary_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+@media  (max-width: 560px) {
+    .secondary_title {
+        font-size: 20px;
+    }
+}
+
